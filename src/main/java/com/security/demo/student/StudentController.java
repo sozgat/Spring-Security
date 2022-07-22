@@ -15,7 +15,7 @@ public class StudentController {
     private static final List<Student> STUDENTS = Arrays.asList(
             new Student(1,"Said Ozgat"),
             new Student(2,"Ibrahim Yildirim"),
-            new Student(2,"Taner Sener")
+            new Student(3,"Taner Sener")
     );
 
     @GetMapping(path = "{studentId}")
